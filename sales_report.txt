@@ -1,0 +1,12 @@
+SALES REPORT
+------------------
+Total Revenue: 9985
+Total Quantity Sold: 84
+Best product: Laptop
+
+Revenue by product:
+Product
+Keyboard     510
+Laptop      7000
+Mouse        675
+Screen      1800
