@@ -11,9 +11,8 @@ product_revenue = data.groupby("Product")["Revenue"].sum()
 best_product = product_revenue.idxmax()
 print("Revenue by product:")
 print(product_revenue)
-print("Best selling product:", best_product)
+print("Highest revenue product:", best_product)
 
-print("Best selling product:", best_product)
 total_quantity = data["Quantity"].sum()
 print("\n======== SALES REPORT =========")
 print("Total Revenue:", total_revenue)
@@ -42,6 +41,7 @@ plt.ylabel("Total Revenue")
 plt.xticks(rotation=0)
 plt.grid(axis="y",linestyle="--", alpha=0.5)
 plt.tight_layout()
+plt.savefig("Figure_1.png")
 plt.show()
 
 
